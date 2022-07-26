@@ -59,7 +59,7 @@ while True:
                 nextCells[(x, y)] = DEAD
 
     try:
-        time.sleep(1)
+        time.sleep(0.1)
     except KeyboardInterrupt:
         print("Conway's game of Life")
         sys.exit()
